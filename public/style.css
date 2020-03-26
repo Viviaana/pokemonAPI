@@ -196,6 +196,10 @@ button{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+button:hover {
+    cursor: url('./images/cursor.cur'), auto; 
+}
+
 .btnbox{
     display: flex;
     justify-content: space-evenly;

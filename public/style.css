@@ -1,15 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
 body{
     background-image: url('https://external-preview.redd.it/z7_wYb9-YSvt0pDJlDIu8iuK_aWdqZPg0wvrGdwNvBw.png?auto=webp&s=b40bf3d0bccf7fe4f8dc601182710ca34eac2222');
 }
 
-button{
-    width:75px
+h2{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 35px;
 }
+
+h3{
+    font-family: 'Patrick Hand', cursive;
+    margin: 2px;
+    color: white;
+}
+
+li{
+    font-family: 'Patrick Hand', cursive;
+    text-transform: capitalize ;
+    font-size: 20px;
+}
+
 
 .container{
     display: flex;
     justify-content: space-evenly;
-    width:100%
+    width:100%;
+    height: 440px;
+    text-align: center;
 }
 
 .strBox{
@@ -34,59 +53,147 @@ button{
 }
 
 .typename {
-    width: 200px;
+    width: 400px;
     height: 40px;
     text-align: center;
     margin: 20px;
-    margin: 5px
+    margin: 5px;
+    text-transform: capitalize ;
 }
 
 .ddamfrom{
-    background-color: rgba(250, 235, 215, 0.562);
+    background-color: rgba(14, 13, 13, 0.8);
     border: 1px blue solid;
     width: 200px;
-    height: 200px;
-    margin: 5px
+    margin: 5px;
+    text-align: start
 }
 
 .ddamto{
-    background-color: rgba(250, 235, 215, 0.562);
+    background-color: rgba(14, 13, 13, 0.8);
     border: 1px green solid;
     width: 200px;
-    height: 200px;
-    margin: 5px
+    margin: 5px;
+    text-align: start
 }
 
 .hdamfrom{
-    background-color: rgba(250, 235, 215, 0.562);
+    background-color: rgba(14, 13, 13, 0.8);
     border: 1px orange solid;
     width: 200px;
-    height: 200px;
-    margin: 5px
+    margin: 5px;
+    text-align: start;
 }
 
 .hdamto{
-    background-color: rgba(250, 235, 215, 0.562);
+    background-color: rgba(14, 13, 13, 0.8);
     border: 1px purple solid;
     width: 200px;
-    height: 200px;
-    margin: 5px
+    margin: 5px;
+    text-align: start
 }
 
 .nodamfrom{
-    background-color: rgba(250, 235, 215, 0.562);
+    background-color: rgba(14, 13, 13, 0.8);
     border: 1px yellow solid;
     width: 200px;
-    height: 200px;
-    margin: 5px
+    margin: 5px;
+    text-align: start
 } 
 
 .nodamto{
-    background-color: rgba(250, 235, 215, 0.562);
+    background-color: rgba(14, 13, 13, 0.8);
     border: 1px black solid;
     width: 200px;
-    height: 200px;
-    margin: 5px
+    margin: 5px;
+    text-align: start
+}
+
+/*TEXT COLOURS*/
+
+.bug{
+    color: #99a80f;
+}
+
+.dark{
+    color: #865d3f;
+}
+
+.dragon{
+    color: #765ddf;
+}
+
+.electric{
+    color: #fcb910;
+}
+
+.fairy{
+    color: #f5b2f5;
+}
+
+.fighting{
+    color: #823116;
+}
+
+.fire{
+    color: #f03e05;
+}
+
+.flying{
+    color: #798de3;
+}
+
+.ghost{
+    color: #7373c2;
+}
+
+.grass{
+    color: #77c535;
+}
+
+.ground{
+    color: #d1b054;
+}
+
+.ice{
+    color: #a0e6fc;
+}
+
+.normal{
+    color: #afaead;
+}
+
+.poison{
+    color: #964496;
+}
+
+.psychic{
+    color: #eb437f;
+}
+
+.rock{
+    color: #bba356;
+}
+
+.steel{
+    color: #9f9fad;
+}
+
+.water{
+    color: #41a1fe;
+}
+
+/* BUTTONS */
+
+button{
+    width:85px;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .btnbox{
@@ -94,4 +201,76 @@ button{
     justify-content: space-evenly;
     width: 100%;
     margin-top: 50px;
+}
+
+.bugBtn{
+    background-color: #99a80f;
+}
+
+.darkBtn{
+    background-color: #865d3f;
+}
+
+.dragonBtn{
+    background-color: #765ddf;
+}
+
+.electricBtn{
+    background-color: #fcb910;
+}
+
+.fairyBtn{
+    background-color: #f5b2f5;
+}
+
+.fightingBtn{
+    background-color: #823116;
+}
+
+.fireBtn{
+    background-color: #f03e05;
+}
+
+.flyingBtn{
+    background-color: #798de3;
+}
+
+.ghostBtn{
+    background-color: #7373c2;
+}
+
+.grassBtn{
+    background-color: #77c535;
+}
+
+.groundBtn{
+    background-color: #d1b054;
+}
+
+.iceBtn{
+    background-color: #a0e6fc;
+}
+
+.normalBtn{
+    background-color: #afaead;
+}
+
+.poisonBtn{
+    background-color: #964496;
+}
+
+.psychicBtn{
+    background-color: #eb437f;
+}
+
+.rockBtn{
+    background-color: #bba356;
+}
+
+.steelBtn{
+    background-color: #9f9fad;
+}
+
+.waterBtn{
+    background-color: #41a1fe;
 }

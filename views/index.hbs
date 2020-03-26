@@ -13,26 +13,29 @@
         <h2>Strengths</h2>
         <div class="strBox">
         <div class="ddamto">
-            <p>Double Damage To: <ul>
+            <h3>Double Damage To:</h3>
+            <ul>
                 {{#each ddamtolist}}
                     <li class={{this}}>{{this}}</li>
                 {{/each}}
-            </ul></p>
+            </ul>
         </div>
 
         <div class="hdamfrom">
-            <p>Half Damage From: <ul>
+            <h3>Half Damage From: </h3>
+            <ul>
                 {{#each hdamfromlist}}
                     <li class={{this}}>{{this}}</li>
                 {{/each}}
-        </ul></p>
+            </ul>
         </div>
         <div class="nodamfrom">
-        <p>No Damage From: <ul>
+            <h3>No Damage From: </h3>
+            <ul>
                 {{#each nodamfromlist}}
                     <li class={{this}}>{{this}}</li>
                 {{/each}}
-        </ul></p>
+            </ul>
         </div>
         </div>
 </div>
@@ -42,28 +45,31 @@
         <h2>Weaknesses</h2>
         <div class="weakBox">
         <div class="ddamfrom">
-            <p>Double Damage From: <ul>
+            <h3>Double Damage From:</h3>
+            <ul>
                 {{#each ddamfromlist}}
                     <li class={{this}}>{{this}}</li>
                 {{/each}}
-            </ul></p>
+            </ul>
         </div>
 
         <div class="hdamto">
-        <p>Half Damage To: <ul>
-                {{#each hdamtolist}}
-                    <li class={{this}}>{{this}}</li>
-                {{/each}}
-        </ul></p>
+            <h3>Half Damage To: </h3>
+                <ul>
+                    {{#each hdamtolist}}
+                        <li class={{this}}>{{this}}</li>
+                    {{/each}}
+            </ul>
         </div>
 
         <div class="nodamto">
-        <p>No Damage To: <ul>
-                {{#each nodamtolist}}
-                    <li class={{this}}>{{this}}</li>
-                {{/each}}
-        </ul></p>
-        </div>
+            <h3>No Damage To: </h3>
+                <ul>
+                    {{#each nodamtolist}}
+                        <li class={{this}}>{{this}}</li>
+                    {{/each}}
+            </ul>
+            </div>
         </div>
     </div>
 </div>
@@ -71,23 +77,23 @@
 
 <div class="btnbox">
 <form action = "/" method = "POST">
-    <button name = "id" value = "1">Normal</button>
-    <button name = "id" value = "2">Fighting</button>
-    <button name = "id" value = "3">Flying</button>
-    <button name = "id" value = "4">Poison</button>
-    <button name = "id" value = "5">Ground</button>
-    <button name = "id" value = "6">Rock</button>
-    <button name = "id" value = "7">Bug</button>
-    <button name = "id" value = "8">Ghost</button>
-    <button name = "id" value = "9">Steel</button>
-    <button name = "id" value = "10">Fire</button>
-    <button name = "id" value = "11">Water</button>
-    <button name = "id" value = "12">Grass</button>
-    <button name = "id" value = "13">Electric</button>
-    <button name = "id" value = "14">Psychic</button>
-    <button name = "id" value = "15">Ice</button>
-    <button name = "id" value = "16">Dragon</button>
-    <button name = "id" value = "17">Dark</button>
-    <button name = "id" value = "18">Fairy</button>
+    <button name = "id" value = "1" class="normalBtn">Normal</button>
+    <button name = "id" value = "2" class="fightingBtn">Fighting</button>
+    <button name = "id" value = "3" class="flyingBtn">Flying</button>
+    <button name = "id" value = "4" class="poisonBtn">Poison</button>
+    <button name = "id" value = "5" class="groundBtn">Ground</button>
+    <button name = "id" value = "6" class="rockBtn">Rock</button>
+    <button name = "id" value = "7" class="bugBtn">Bug</button>
+    <button name = "id" value = "8" class="ghostBtn">Ghost</button>
+    <button name = "id" value = "9" class="steelBtn">Steel</button>
+    <button name = "id" value = "10" class="fireBtn">Fire</button>
+    <button name = "id" value = "11" class="waterBtn">Water</button>
+    <button name = "id" value = "12" class="grassBtn">Grass</button>
+    <button name = "id" value = "13" class="electricBtn">Electric</button>
+    <button name = "id" value = "14" class="psychicBtn">Psychic</button>
+    <button name = "id" value = "15" class="iceBtn">Ice</button>
+    <button name = "id" value = "16" class="dragonBtn">Dragon</button>
+    <button name = "id" value = "17" class="darkBtn">Dark</button>
+    <button name = "id" value = "18" class="fairyBtn">Fairy</button>
 </form>
 </div>

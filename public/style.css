@@ -1,0 +1,97 @@
+body{
+    background-image: url('https://external-preview.redd.it/z7_wYb9-YSvt0pDJlDIu8iuK_aWdqZPg0wvrGdwNvBw.png?auto=webp&s=b40bf3d0bccf7fe4f8dc601182710ca34eac2222');
+}
+
+button{
+    width:75px
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%
+}
+
+.strBox{
+    display: flex;
+    justify-content: space-around;
+}
+.weakBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nameBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.typename {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 20px;
+    margin: 5px
+}
+
+.ddamfrom{
+    background-color: rgba(250, 235, 215, 0.562);
+    border: 1px blue solid;
+    width: 200px;
+    height: 200px;
+    margin: 5px
+}
+
+.ddamto{
+    background-color: rgba(250, 235, 215, 0.562);
+    border: 1px green solid;
+    width: 200px;
+    height: 200px;
+    margin: 5px
+}
+
+.hdamfrom{
+    background-color: rgba(250, 235, 215, 0.562);
+    border: 1px orange solid;
+    width: 200px;
+    height: 200px;
+    margin: 5px
+}
+
+.hdamto{
+    background-color: rgba(250, 235, 215, 0.562);
+    border: 1px purple solid;
+    width: 200px;
+    height: 200px;
+    margin: 5px
+}
+
+.nodamfrom{
+    background-color: rgba(250, 235, 215, 0.562);
+    border: 1px yellow solid;
+    width: 200px;
+    height: 200px;
+    margin: 5px
+} 
+
+.nodamto{
+    background-color: rgba(250, 235, 215, 0.562);
+    border: 1px black solid;
+    width: 200px;
+    height: 200px;
+    margin: 5px
+}
+
+.btnbox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}

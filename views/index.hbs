@@ -1,0 +1,93 @@
+<div class="header">
+    <img src="https://i.imgur.com/ExVhyZE.png" border="0">
+</div>
+
+<div class="nameBox">
+<div class="typename">
+<h2>Pokemon Type: {{name}}</h2>
+</div>
+</div>
+
+<div class="container">
+    <div class="strengths">
+        <h2>Strengths</h2>
+        <div class="strBox">
+        <div class="ddamto">
+            <p>Double Damage To: <ul>
+                {{#each ddamtolist}}
+                    <li class={{this}}>{{this}}</li>
+                {{/each}}
+            </ul></p>
+        </div>
+
+        <div class="hdamfrom">
+            <p>Half Damage From: <ul>
+                {{#each hdamfromlist}}
+                    <li class={{this}}>{{this}}</li>
+                {{/each}}
+        </ul></p>
+        </div>
+        <div class="nodamfrom">
+        <p>No Damage From: <ul>
+                {{#each nodamfromlist}}
+                    <li class={{this}}>{{this}}</li>
+                {{/each}}
+        </ul></p>
+        </div>
+        </div>
+</div>
+
+    
+    <div class="weakness">
+        <h2>Weaknesses</h2>
+        <div class="weakBox">
+        <div class="ddamfrom">
+            <p>Double Damage From: <ul>
+                {{#each ddamfromlist}}
+                    <li class={{this}}>{{this}}</li>
+                {{/each}}
+            </ul></p>
+        </div>
+
+        <div class="hdamto">
+        <p>Half Damage To: <ul>
+                {{#each hdamtolist}}
+                    <li class={{this}}>{{this}}</li>
+                {{/each}}
+        </ul></p>
+        </div>
+
+        <div class="nodamto">
+        <p>No Damage To: <ul>
+                {{#each nodamtolist}}
+                    <li class={{this}}>{{this}}</li>
+                {{/each}}
+        </ul></p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="btnbox">
+<form action = "/" method = "POST">
+    <button name = "id" value = "1">Normal</button>
+    <button name = "id" value = "2">Fighting</button>
+    <button name = "id" value = "3">Flying</button>
+    <button name = "id" value = "4">Poison</button>
+    <button name = "id" value = "5">Ground</button>
+    <button name = "id" value = "6">Rock</button>
+    <button name = "id" value = "7">Bug</button>
+    <button name = "id" value = "8">Ghost</button>
+    <button name = "id" value = "9">Steel</button>
+    <button name = "id" value = "10">Fire</button>
+    <button name = "id" value = "11">Water</button>
+    <button name = "id" value = "12">Grass</button>
+    <button name = "id" value = "13">Electric</button>
+    <button name = "id" value = "14">Psychic</button>
+    <button name = "id" value = "15">Ice</button>
+    <button name = "id" value = "16">Dragon</button>
+    <button name = "id" value = "17">Dark</button>
+    <button name = "id" value = "18">Fairy</button>
+</form>
+</div>

@@ -74,7 +74,6 @@ app.post("/", async(req, res) =>{
     res.render('index', {name, ddamfromlist, ddamtolist, hdamfromlist, hdamtolist, nodamfromlist, nodamtolist})
 })
 
-
 app.listen(3000, () =>{
     console.log("Server is listening")
 })
